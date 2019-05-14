@@ -1,0 +1,4 @@
+:Author: Brendan Campbell
+:Email: bdcam@umich.edu
+:Date: 26/12/2018
+:License: Public Domain
