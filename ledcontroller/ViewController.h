@@ -15,6 +15,9 @@
     NSInputStream   *inputStream;
     NSOutputStream  *outputStream;
     bool lightsOn;
+    
+    int port;
+    NSString *host;
 }
 
 - (IBAction)toggleLights;

@@ -88,8 +88,8 @@
 
 - (void)connectToServer {
     
-    NSLog(@"Setting up connection to %s : %i", "10.0.0.179", 6969);
-    CFStreamCreatePairWithSocketToHost(kCFAllocatorDefault, (__bridge CFStringRef) [NSString stringWithUTF8String:"10.0.0.179"], 6969, &readStream, &writeStream);
+    NSLog(@"Setting up connection to %s : %i", "localhost", 6969);
+    CFStreamCreatePairWithSocketToHost(kCFAllocatorDefault, (__bridge CFStringRef) [NSString stringWithUTF8String:"localhost"], 6969, &readStream, &writeStream);
 
     [self open];
 }
