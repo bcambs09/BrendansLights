@@ -12,7 +12,7 @@ char pass[] = "My_Passwords";    // your network password (use for WPA, or use a
 
 int status = WL_IDLE_STATUS;
 
-WiFiServer server(6969);
+WiFiServer server(7500);
 
 int brightness = 255;
 
